@@ -1,0 +1,29 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: brown;
+	height: 100vh;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+span {
+	cursor: pointer;
+	height: 10px;
+	width: 30px;
+	padding: 5px;
+	color: rgb(255, 255, 255);
+}
+
+.gold {
+	color: gold;
+}

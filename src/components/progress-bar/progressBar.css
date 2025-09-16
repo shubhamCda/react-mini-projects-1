@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: black;
+}
+
+.box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+}
+.container{
+  position: relative;
+  border: 1px solid grey;
+  background-color: grey;
+  height: 30px;
+  width: 300px;
+  border-radius: 20px;
+  overflow: hidden;
+  border: none;
+  
+}
+
+.progress-bar{
+  position: absolute;
+  background-color: blue;
+  height: 30px;
+  /* width: 300px; */
+  border-radius: 20px;
+  /* transform: translateX(-90%); */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+.progress-bar p{
+  position: relative;
+  color: white;
+  z-index: 1;
+  
+}
+
+.set-bar{
+  
+  width: 100px;
+  background-color: white;
+  margin: 10px;
+}

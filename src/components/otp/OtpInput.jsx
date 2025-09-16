@@ -13,13 +13,19 @@ function OtpInput({ inputValue = 6 }) {
 
 		const copyOtpValues = [...otpFields];
 
-		if (key == "Backspace") {
+		if (key === "Backspace") {
 			copyOtpValues[index] = "";
 			setOtpFields(copyOtpValues);
 
 			if (0 <= index) ref.current[index - 1].focus();
 			return;
-		}
+    }
+    if (key === "ArrowRight") {
+      ref.current[index+1].focus()
+    }
+    if (key === "ArrowLeft") {
+      ref.current[index - 1].focus();
+    }
 		if (isNaN(key)) {
 			return;
 		}

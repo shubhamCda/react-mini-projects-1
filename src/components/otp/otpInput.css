@@ -7,3 +7,9 @@ body{
 .container{
   height: 50vh;
 }
+
+input{
+  height: 3rem;
+  width: 3rem;
+  margin: 5px;
+}

@@ -9,8 +9,8 @@ function App() {
     <>
       {/* <Todo /> */}
       {/* <ProgressBar /> */}
-      {/* <StarRating /> */}
-      <OtpInput />
+      <StarRating />
+      {/* <OtpInput /> */}
     </>
   )
 }
